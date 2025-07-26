@@ -45,7 +45,7 @@ python train.py
 ```
 
 ### Important Notes:
-- If you're using a weaker GPU (like GTX 1050), **adjust the training parameters accordingly** in `train.py`:
+- If you're using a weaker GPU (like GTX 1050, that's my config), **adjust the training parameters accordingly** in `train.py`:
   - Reduce batch size (e.g., from 32 → 8)
   - Reduce image resolution
   - Lower the number of epochs
